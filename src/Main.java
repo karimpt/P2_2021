@@ -12,6 +12,8 @@ public class Main {
 
         Aula aula1 = new Aula("prog2", 1);
         Aula aula2 = new Aula("prog3", 2);
+        Aula aula3 = new Aula("prog4", 2);
+
     }
 
     public static void main(String[] args){
