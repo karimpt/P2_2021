@@ -15,6 +15,7 @@ public class Main {
         Aula aula3 = new Aula("prog3", 3);
         Aula aula4 = new Aula("prog4", 4);
         Aula aula5 = new Aula("prog5", 5);
+        Aula aula6 = new Aula("prog6", 6);
 
 
     }
