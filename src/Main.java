@@ -10,10 +10,11 @@ public class Main {
         Aluno aluno1 = new Aluno("toni",123123);
         Aluno aluno2 = new Aluno("toino", 213123);
 
-        Aula aula1 = new Aula("prog2", 1);
-        Aula aula2 = new Aula("prog3", 2);
-        Aula aula3 = new Aula("prog4", 2);
-        Aula aula4 = new Aula("prog5", 2);
+        Aula aula1 = new Aula("prog1", 1);
+        Aula aula2 = new Aula("prog2", 2);
+        Aula aula3 = new Aula("prog3", 3);
+        Aula aula4 = new Aula("prog4", 4);
+        Aula aula5 = new Aula("prog5", 5);
 
 
     }
