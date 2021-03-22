@@ -14,12 +14,23 @@ public class Aluno {
         this.aulas = new LinkedList<>();
     }
 
-    //assina sumario
-    public void preencheSumario(Aula aula){
-        aula.adicionaAluno(this);
+    public String getNome(){
+        return this.nome;
     }
 
-    //
+    public long getNumero(){
+        return this.numero;
+    }
+
+    //marca presença numa determinada aula
+    public void preencherSumario(Aula aula){
+        if (!aulas.contains(aula)){
+            return;
+        }
+        aula.adicionarLinhaSumario(nome);
+    }
+
+    // adiciona uma aula a este aluno
     public void adicionaAula(Aula aula){
         this.aulas.add(aula);
     }
